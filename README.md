@@ -23,3 +23,11 @@ This repository contains a simple Flask application that mimics a basic chat pan
 4. Open your browser at `http://localhost:5000` to interact with the chat panel.
 
 This example is intentionally minimal and can be extended with additional features such as user authentication, conversation history, and more sophisticated UI elements.
+
+## Docker
+To build and run the server in a Docker container:
+```bash
+docker build -t mcp-app .
+docker run -p 5000:5000 mcp-app
+```
+
